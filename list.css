@@ -92,3 +92,14 @@ ul li span{
 ul li span:hover{
     background: #fff;
 }
+@media (max-width: 768px) {
+    .todo-list {
+        background-size: contain;
+    }
+    .search-box{
+        height: 50px;
+    }
+    button{
+        height: 50px;
+    }
+}
